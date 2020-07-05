@@ -46,7 +46,7 @@ for crawling in crawlings :
             if len(cursus_user) < 2 :
                 continue
             level = cursus_user[1]["level"]
-            if 2.50 <= level <= 3.0 :
+            if 2.50 <= level :
                 print(user_login)
                 count += 1
                 print(count)
